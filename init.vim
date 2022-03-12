@@ -9,6 +9,8 @@ set encoding=utf-8
 
 set cursorline
 
+let maplocalleader = "_"
+
 " dein.vim settings
 if &compatible
   set nocompatible               " Be iMproved

@@ -9,4 +9,10 @@ hook_add = '''
 '''
 
 [[plugins]]
-repo = 'tpope/vim-fugitive'
+repo = 'autozimu/LanguageClient-neovim'
+rev = 'next'
+build = 'bash install.sh'
+hook_add = '''
+source ~/.config/nvim/plugins/LanguageClient-neovim.rc.vim
+'''
+

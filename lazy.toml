@@ -8,6 +8,3 @@ let g:rustfmt_autosave = 1
 [[plugins]]
 repo = 'neoclide/coc.nvim'
 rev = 'release'
-hook_add = '''
-source ~/.config/nvim/plugins/coc.rc.vim
-'''

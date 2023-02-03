@@ -7,3 +7,14 @@ hook_add = '''
     colorscheme iceberg
     syntax on
 '''
+
+[[plugins]]
+repo = 'vim-airline/vim-airline'
+
+[[plugins]]
+repo = 'neoclide/coc.nvim'
+rev = 'release'
+build = 'coc#util#intall()'
+hook_add = '''
+    source ~/.config/nvim/plugins/coc.rc.vim
+'''

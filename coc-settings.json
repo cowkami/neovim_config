@@ -1,0 +1,11 @@
+{
+  "coc.preferences.formatOnSaveFiletypes": ["*"],
+  "prettier.disableLanguages": ["python"],
+  "python.pythonPath": "~/.pyenv/shims/python",
+  "python.formatting.provider": "black",
+  "python.formatting.blackPath": "~/.pyenv/shims/black",
+  "python.linting.mypyEnabled": true,
+  "python.linting.pydocstyleEnabled": true,
+  "python.linting.pydocstylePath": "~/.pyenv/shims/pydocstyle",
+  "python.sortImports.path": "isort"
+}
